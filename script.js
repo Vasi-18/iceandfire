@@ -190,7 +190,7 @@ const inputField = document.createElement("input");
 inputField.type = "search";
 inputField.id = "search-box";
 inputField.className = "form-control form-control-lg";
-inputField.placeholder = "Enter your search query";
+inputField.placeholder = "Enter your book name";
 inputField.setAttribute("list", "datalist");
 
 // To display Suggestions while typing in search ox using datalist
